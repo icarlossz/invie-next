@@ -1,0 +1,29 @@
+{
+  "name": "invie-next",
+  "version": "0.0.1",
+  "description": "Invie with future tecnologies!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandc/invie-next.git"
+  },
+  "keywords": [
+    "invie",
+    "invie-next",
+    "postcss",
+    "cssnext",
+    "juandc",
+    "Invie-Future",
+    "Desarrollo-web-online",
+    "Platzi-invie"
+  ],
+  "author": "@juandc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandc/invie-next/issues"
+  },
+  "homepage": "https://github.com/juandc/invie-next#readme"
+}
