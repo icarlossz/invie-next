@@ -1,0 +1,11 @@
+@define-mixin btn $textColor, $bgColor, $bgColorStart, $bgColorEnd {
+  border-radius: 12px;
+  border: none;
+  color: $(textColor);
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: ;
+  text-decoration: none;
+  background: $(bgColor);
+  background: linear-gradient(to left, $(bgColorStart), $(bgColorEnd));
+}

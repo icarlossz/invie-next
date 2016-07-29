@@ -1,0 +1,57 @@
+@import './vars.css';
+@import './fonts.css';
+@import './mixins.css';
+
+body {
+  background-color: var(--bg-body);
+  font-family: 'Allerta';
+  padding: 0;
+  margin: 0;
+}
+
+@utility scroll {
+  font-size: 0;
+  margin-bottom: 20px;
+  overflow: auto;
+  scroll-snap-points-x: repeat(100%);
+  scroll-snap-type: mandatory;
+  white-space: nowrap;
+  width: 100%;
+  &-itemContainer {
+    border-radius: 12px;
+    border: 1px solid var(--bd-feature);
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 2%;
+    width: 96%;
+  }
+  &-itemContent {
+    display: flex;
+    & > img {
+      width: auto;
+      height: 200px;
+    }
+  }
+}
+
+@utility grid {
+  background: lightgray;
+  lost-center: 1024px;
+  lost-utility: clearfix;
+  padding: 10px;
+  &-col {
+    lost-column: 1/1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    @media (--mobile-md) {
+      lost-column: 1/2;
+    }
+    @media (--tablet) {
+      lost-column: 1/3;
+    }
+    @media (--desktop) {
+      lost-column: 1/4;
+    }
+  }
+}
